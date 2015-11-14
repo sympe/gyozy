@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class='home'>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Gyozy</title>
+		<script src="./jquery-1.11.1.min-2.js" type="text/javascript" charset="utf-8"></script><!-- ダウロードしてきたjQueryをロード -->
+		<script src="./jquery.xdomainajax.js" type="text/javascript" charset="utf-8"></script><!-- ダウンロードしてきたjquery.xdomainajaxをロード -->
+		<script src="./jquery.imagefit.js" type="text/javascript" charset="utf-8"></script>
+		<script src="main.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body id='homebody'>
+		<div id="homecontents">
+			<div id='homesubTitle'></div>
+			<a href="list.html?id=0">
+				<div id="thisweek" class="indexitems">
+					<div class="indextitles" id="thisweektitle">今週末のイベント</div>
+				</div>
+			</a>
+			<a href="list.html?id=1">
+				<div id="nextweek" class="indexitems">
+					<div class="indextitles">来週</div>
+				</div>
+			</a>
+			<a href="list.html?id=2">
+				<div id="otherweek" class="indexitems">
+					<div class="indextitles">再来週〜</div>
+				</div>
+			</a>
+			<a href="list.html?id=3">
+				<div id="other" class="indexitems">
+					<div class="indextitles">平日の<br>イベント</div>
+				</div>
+			</a>
+			<a href="fav.html">
+				<div id="favorite" class="indexitems">
+						<img src="star-icon.png" id="star"></img>
+						<div class="indextitles" id="favotitles">お気に入り</div>
+				</div>
+			</a>
+		</div>
+	</body>
+</html>
